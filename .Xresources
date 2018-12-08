@@ -1,0 +1,38 @@
+URxvt.perl-lib: /usr/lib/urxvt/perl 
+URxvt.font: xft:Monospace:size=11
+URxvt.scrollBar: false
+URxvt.depth:32
+URxvt.perl-ext-common: default,resize-font
+
+! Clickable URLS
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+
+
+! Resize Font
+URxvt.keysym.C-M-equal:     perl:resize-font:bigger
+URxvt.keysym.C-M-minus:    perl:resize-font:smaller
+URxvt.keysym.C-0:    perl:resize-font:reset
+URxvt.keysym.C-M-question: perl:resize-font:show
+
+! Colours
+*.foreground:   #acff9f
+*.background:   [80]#3d4547 
+*.cursorColor:  #e89ce9
+*.color0:       #acff9f
+*.color1:       #fffea4
+*.color2:       #6b9b76
+*.color3:       #fbbeff
+*.color4:       #fffea1
+*.color5:       #fbbeff
+*.color6:       #ffabd4
+*.color7:       #acff9f
+*.color8:       #ff8e8e
+*.color9:       #f0aaf1
+*.color10:      #ffa8fb
+*.color11:      #fffea4
+*.color12:      #57ce8a
+*.color13:      #8bf8ff
+*.color14:      #c6fffe 
+*.color15:      #8ff2a6
+
